@@ -1,0 +1,21 @@
+// import all other sccs/css
+
+
+@font-face {
+  font-family: 'Noto-Sans';
+  src: url("/assets/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+
+// Set theme variables...
+$primary: rgb(0, 130, 185);
+$primary-light: rgba(0, 130, 185, 0.5);
+$font-family-sans-serif: 'Noto-Sans', sans-serif;
+$font-weight-normal: 300;
+$font-weight-light: 200;
+$font-weight-base:            $font-weight-normal;
+
+
+// import bootstrap styles after your theme
+
+@import '../node_modules/bootstrap/scss/bootstrap';
